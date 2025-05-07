@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+    <div class="page">
+        <div>
+            <h1>Boldam Weather Card</h1>
+        </div>
+        <form>
+            <label> Enter a location to get the weather information</label>
+            <br>
+            <br> 
+            <input type="text" name="state">
+        </form>
+
+        <div class="card">
+            <div><img src="https://fakeimg.pl/400x200" alt="day or night"></div>
+       
+            <div  class="details">
+                <h5>STATE</h5>
+                <h5>WEATHER</h5>
+                <h5>TEMPERATURE <span>&deg;C</span> </h5>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./scripts/weatherNetw.js"></script>
+    <script src="./scripts/weatherApp.js"></script>
+</body>
+</html>
